@@ -4,7 +4,7 @@ with source as (
 
 ),
 
-hello as (
+hi as (
 
     select
     
@@ -20,4 +20,4 @@ hello as (
 
 )
 
-select * from hello
+select * from hi
