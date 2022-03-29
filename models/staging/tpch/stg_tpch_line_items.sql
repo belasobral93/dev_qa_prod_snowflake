@@ -5,7 +5,7 @@ with source as (
 ),
 
 
-chong as (
+new as (
 
 
     select
@@ -35,5 +35,5 @@ chong as (
 
 )
 
-select * from chong
+select * from new
 
