@@ -7,7 +7,7 @@ with source as (
 ),
 
 
-yodel as (
+yodelz as (
 
     select
     
@@ -26,7 +26,7 @@ yodel as (
 
 )
 
-select * from yodel
+select * from yodelz
 
 {% do log("this is schema  "+schema, info=true) %}
 {% do log("this is target.schema "+ target.schema, info=true) %}
