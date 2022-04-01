@@ -14,7 +14,7 @@ from
     merged
     -- have to manually map strings in the pivot operation
     pivot(sum(gross_item_sales_amount) for ship_mode in (
-        'AIR',
+        'AIRS',
         'REG AIR',
         'FOB',
         'RAIL',
