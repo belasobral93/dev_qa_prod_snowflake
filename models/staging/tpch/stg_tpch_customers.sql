@@ -1,4 +1,4 @@
-{{ config(schema='target_test') }}
+-- {{ config(schema='target_test') }}
 
 with source as (
 
@@ -7,7 +7,7 @@ with source as (
 ),
 
 
-yodelz as (
+model as (
 
     select
     
@@ -26,7 +26,7 @@ yodelz as (
 
 )
 
-select * from yodelz
+select * from model
 
 {% do log("this is schema  "+schema, info=true) %}
 {% do log("this is target.schema "+ target.schema, info=true) %}
