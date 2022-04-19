@@ -5,7 +5,7 @@ with source as (
 ),
 
 
-rename as (
+new as (
 
 
     select
@@ -35,5 +35,5 @@ rename as (
 
 )
 
-select * from rename
+select * from new
 
