@@ -7,7 +7,7 @@ with source as (
 ),
 
 
-models as (
+modelz as (
 
     select
     
@@ -26,7 +26,7 @@ models as (
 
 )
 
-select * from models
+select * from modelz
 
 {% do log("this is schema  "+schema, info=true) %}
 {% do log("this is target.schema "+ target.schema, info=true) %}
