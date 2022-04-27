@@ -1,4 +1,3 @@
--- {{ config(schema='target_test') }}
 
 with source as (
 
@@ -7,7 +6,7 @@ with source as (
 ),
 
 
-modelz as (
+models as (
 
     select
     
@@ -26,7 +25,7 @@ modelz as (
 
 )
 
-select * from modelz
+select * from models
 
 {% do log("this is schema  "+schema, info=true) %}
 {% do log("this is target.schema "+ target.schema, info=true) %}
