@@ -25,7 +25,7 @@ models as (
 
 )
 
-select * from model
+select * from models
 
 {% do log("this is schema  "+schema, info=true) %}
 {% do log("this is target.schema "+ target.schema, info=true) %}
